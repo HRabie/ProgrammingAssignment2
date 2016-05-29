@@ -61,4 +61,8 @@ cacheSolve <- function(x, ...) {
     data <- x$Get()
   InvMat <- solve(data, ...)
   x$SetInv(InvMat)
+<<<<<<< HEAD
   InvMat }
+=======
+  InvMat }
+>>>>>>> origin/master
